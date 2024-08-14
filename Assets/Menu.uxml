@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sunnyland/artwork/Environment/back.png?fileID=2800000&amp;guid=8e160a2a620644cd6afef9119dad1093&amp;type=3#back&quot;); justify-content: center; align-self: auto; align-items: center;">
-        <ui:Label tabindex="-1" text="SunnyLand" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 32px; -unity-font-definition: initial; -unity-font: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;);" />
-        <ui:Button text="Jogar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnJogar" />
+        <ui:Label tabindex="-1" text="SunnyLand" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 32px; -unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/Fonts/Daydream.ttf?fileID=12800000&amp;guid=78310458a1640e34bba1c82ac60c3be7&amp;type=3#Daydream&quot;);" />
+        <ui:Button text="Jogar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnFase" style="-unity-font: url(&quot;project://database/Assets/Fonts/Daydream.ttf?fileID=12800000&amp;guid=78310458a1640e34bba1c82ac60c3be7&amp;type=3#Daydream&quot;); -unity-font-definition: initial; background-color: rgb(73, 200, 83);" />
     </ui:VisualElement>
 </ui:UXML>

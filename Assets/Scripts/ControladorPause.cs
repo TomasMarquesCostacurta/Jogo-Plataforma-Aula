@@ -22,11 +22,11 @@ public class ControladorPause : MonoBehaviour
     {
         if (isPaused) { 
         isPaused = false;
-            timeScale = 1f;
+            Time.timeScale = 1f;
         PausePanel.SetActive(false);}
 
         else { isPaused = true;
-           timeScale = 0f;
+           Time.timeScale = 0f;
         PausePanel.SetActive(true);}
     }
     public void BackToMenu()
